@@ -4,11 +4,13 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SlLocationPin } from "react-icons/sl";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Qna = () => {
   return (
-    <div className="   grid grid-cols-3 p-2 m-2 gap-4 ">
-      <div className="flex flex-col  bg-amber-800">
+    <div className="   grid grid-cols-3 p-2 m-2 gap-4 border-t-2 border-gray-500 shadow-lg">
+      <div className="flex flex-col ">
         <span className=" flex flex-coljustify-center items-center p-2 m-1 ">
           <img
             src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/images-2.jpg"
@@ -29,31 +31,48 @@ const Qna = () => {
           </p>
         </div>
       </div>
-      <div className="bg-gray-600 grid-cols-1 text-white p-2 m-2 font-serif  ">
-        <div className="flex flex-col justify-center items-center p-4">
-          <span className="text-xl font-bold p-2">Quick Links</span>
-          <span className="text-xl font-bold p-2">Terms & Conditions</span>
-          <span className="text-xl font-bold p-2">Privacy Policy</span>
-          <span className="flex w-3/4 courser-pointer gap-4 justify-center items-center p-2 m-2 hover:w-fit h-fit">
-            <FaInstagramSquare widths={200} />
+      <div className="  grid-cols-1 p-2 m-2 font-serif  ">
+        <div className="flex flex-col justify-center items-center p-4 ">
+          <span className="text-xl font-bold p-2 cursor-pointer">
+            Quick Links
+          </span>
+          <span className="text-xl font-bold p-2 cursor-pointer">
+            Terms & Conditions
+          </span>
+          <span className="text-xl font-bold p-2 cursor-pointer">
+            Privacy Policy
+          </span>
+          <span className="flex flex-row cursor-pointer gap-7 justify-center items-center p-2 m-2 hover:text-slate-500 text-5xl">
+            <FaInstagramSquare />
+            <FaFacebookSquare />
             <IoLogoYoutube />
             <FaSquareXTwitter />
+            <FaLinkedin />
+          </span>
+          <span className="text-xl p-2 m-2 text-center">
+            <p>Copyright © 2025 Pooja Designer Boutique</p>
           </span>
         </div>
       </div>
-      <div className="bg-green-600 grid-cols-1 text-white p-2 m-2">
+      <div className="  grid-cols-1  p-2 m-2">
         <div>
-            <div>
-                <h1>Contacts</h1>
-            </div>
-            <span className=" flex flex-row   gap-2 text-xl">
+          <div className="text-center p-2 m-2 text-2xl font-bold">
+            <h1 className="underline ">Contacts</h1>
+          </div>
+          <span className=" flex flex-row gap-2 text-4xl p-2 m-2">
             <SlLocationPin />
-            <p>HOUSE NO 38, BLOCK 4, MOTI NAGAR, Ramesh Nagar, New Delhi, West Delhi- 110015, Delhi</p>
-            </span>
-        
-            <span className="flex flex-row gap-2 p-2 m-2 text-xl"><MdOutlineMarkEmailRead />
-                <h4>contact@100xdevs.com</h4>
-            </span>
+            <p className="text-xl">
+              HOUSE NO 38, BLOCK 4, MOTI NAGAR, Ramesh Nagar, New Delhi, West
+              Delhi- 110015, Delhi
+            </p>
+          </span>
+
+          <span className="flex flex-row gap-2 p-2 m-2 text-3xl">
+            <MdOutlineMarkEmailRead />
+            <h4 className="text-xl cursor-pointer underline hover:text-slate-600">
+              contact@100xdevs.com
+            </h4>
+          </span>
         </div>
       </div>
     </div>

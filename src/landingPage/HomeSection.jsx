@@ -19,7 +19,7 @@ const HomeSection = () => {
         <div className="p-1 m-2 flex justify-center ">
           <img
             loading="lazy"
-            src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/pooja-butique.png" 
+            src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/pooja-butique.png"
           />
           <img src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/butique.png" />
           <img src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/pooja-butique.png" />
