@@ -24,12 +24,13 @@ function App() {
       <MainSection />
       <ImageSection />
       <Buy />
-      <Qna />
       <Fun />
       <Contract />
       <Info />
       <Support />
       <Footer />
+      <Qna />
+
 
     </>
   )
