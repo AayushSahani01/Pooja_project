@@ -2,7 +2,7 @@ import React from "react";
 
 const Support = () => {
   return (
-    <div className="  text-center p-4 m-48">
+    <div className="h-fit text-center p-4 m-48">
       <div className="bg-amber-200">
         <div className="text-3xl font-bold text-center underline-offset-2">
           <h1>Tailoring services boutique</h1>

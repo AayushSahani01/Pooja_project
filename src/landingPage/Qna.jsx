@@ -8,8 +8,10 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 const Qna = () => {
+ 
+   
   return (
-    <div className="   grid grid-cols-3 p-2 m-2 gap-4 border-t-2 border-gray-500 shadow-lg">
+    <div className=" grid grid-cols-3 p-2 m-2 gap-4 border-t-2 border-gray-300 shadow-lg">
       <div className="flex flex-col ">
         <span className=" flex flex-coljustify-center items-center p-2 m-1 ">
           <img
@@ -50,8 +52,13 @@ const Qna = () => {
             <FaLinkedin />
           </span>
           <span className="text-xl p-2 m-2 text-center">
-            <p>Copyright © 2025 Pooja Designer Boutique</p>
+            <p>Copyright &copy; 2025 Pooja Designer Boutique</p>
           </span>
+          <div>
+            <p className="text-xl p-2 m-2">
+              All rights reserved. Designed by <b>Pooja Designer Boutique.</b>
+            </p>
+          </div>
         </div>
       </div>
       <div className="  grid-cols-1  p-2 m-2">
@@ -73,6 +80,12 @@ const Qna = () => {
               contact@100xdevs.com
             </h4>
           </span>
+          <div className="flex flex-row gap-2 p-2 m-2 text-xl">
+            <h1><u>Phone No: +91 9999999999</u></h1>
+          </div>
+          <div className="text-center p-2 m-2 text-sm font-bold">
+            <p >Made 🇮🇳 India ❤️ </p>
+          </div>
         </div>
       </div>
     </div>

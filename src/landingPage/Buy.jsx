@@ -2,7 +2,7 @@ import React from "react";
 
 const Buy = () => {
   return (
-    <div className="border-b-gray-500 p-4 m-2">
+    <div className="border-t-4 border-gray-300 p-8 m-4">
       <div className="grid grid-cols-2 ">
         <div>
           <img src="../assets/ads.webp" alt="images" srcset="" />
