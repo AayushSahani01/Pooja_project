@@ -17,7 +17,7 @@ const Support = () => {
             silhouette but also mirror your persona.
           </p>
         </div>
-        <div className="p-2 m-6 flex justify-self-center bg-stone-950 rounded-full text-2xl font-serif text-white hover:bg-stone-600 text-shadow-2xs cursor-pointer in-focus-visible:">
+        <div className="p-3 m-8 flex justify-self-center bg-stone-950 rounded-full text-2xl font-serif text-white hover:bg-stone-600 cursor-pointer ">
           <button>Shop Now</button>
         </div>
       </div>

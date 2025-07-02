@@ -12,11 +12,11 @@ const Contract = () => {
           name="Search"
           id=""
           placeholder="Type here..."
-          className="w-3/4 border border-stone-500 p-4 rounded-full"
+          className="w-5/6 border border-stone-500 p-4 rounded-full"
         />
         <button
           type="button"
-          className="px-4 m-3 border border-stone-500 rounded-full text-2xl bg-gray-800 text-white w-1/6 h-12"
+          className="px-2 m-2 border border-stone-500 rounded-full text-2xl bg-gray-800 text-white w-1/6 h-12 hover:bg-stone-600 transition-colors duration-300"
         >
           Search
         </button>

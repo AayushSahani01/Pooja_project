@@ -13,11 +13,11 @@ const Info = () => {
             <p>hi@mygroovydomain.com</p>
           </div>
 
-          <div className="text-lg   underline font-extralight">
+          <div className="text-lg  underline font-extralight">
             <p>123 Example Street</p>
           </div>
 
-          <div className=" font-serif">
+          <div className=" font-serif text-xl font-light underline">
             <p>San Franciso, CA 12345</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Info = () => {
           />
           <button
             type="button"
-            className=" border border-stone-500 rounded-full text-2xl bg-gray-800 flex justify-self-center text-white p-2 m-6 "
+            className="  rounded-full text-2xl bg-gray-800 flex justify-self-center text-white p-4 m-2 cursor-pointer hover:bg-stone-600 transition-colors duration-300   "
           >
             Submit
           </button>
