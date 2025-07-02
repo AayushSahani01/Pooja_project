@@ -20,7 +20,7 @@ const Footer = () => {
           />
           <button
             type="submit"
-            className="border border-gray-500 rounded-sm p-4 m-3 bg-stone-950 text-white font-bold"
+            className="border border-gray-500 rounded-sm p-4 m-3 bg-stone-950 text-white font-bold cursor-pointer hover:bg-stone-600 transition-colors duration-300"
           >
             Subscribe
           </button>
@@ -28,16 +28,16 @@ const Footer = () => {
         <div className=" m-2 px-48 flex-wrap  grid grid-cols-2 text-xl font-semibold">
           <div className="flex flex-row justify-between">
             <div className="grid grid-cols-1">
-              <div>Blog</div>
-              <div>Home</div>
-              <div>About</div>
-              <div>Contract</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Blog</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Home</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">About</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Contract</div>
             </div>
             <div className="grid grid-cols-1">
-              <div>Support</div>
-              <div>Policy</div>
-              <div>visit-Us</div>
-              <div>Shopping</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Support</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Policy</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">visit-Us</div>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Shopping</div>
             </div>
           </div>
         </div>

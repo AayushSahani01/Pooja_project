@@ -3,7 +3,7 @@ import React from "react";
 const Support = () => {
   return (
     <div className="h-fit text-center p-4 m-48">
-      <div className="bg-amber-200">
+      <div className="flex flex-col justify-center items-center p-4 m-4 bg-stone-100 rounded-lg shadow-lg">
         <div className="text-3xl font-bold text-center underline-offset-2">
           <h1>Tailoring services boutique</h1>
         </div>

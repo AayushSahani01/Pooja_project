@@ -21,7 +21,7 @@ const Qna = () => {
             width={150}
             className="flex justify-center items-center rounded-full"
           />
-          <h2 className="text-2xl font-bold p-2 m-2">
+          <h2 className="text-2xl font-bold p-2 m-2 text-center">
             Pooja Designer Boutique
           </h2>
         </span>
@@ -35,23 +35,16 @@ const Qna = () => {
       </div>
       <div className="  grid-cols-1 p-2 m-2 font-serif  ">
         <div className="flex flex-col justify-center items-center p-4 ">
-          <span className="text-xl font-bold p-2 cursor-pointer">
+          <span className="text-xl font-bold p-2 cursor-pointer hover:underline">
             Quick Links
           </span>
-          <span className="text-xl font-bold p-2 cursor-pointer">
+          <span className="text-xl font-bold p-2 cursor-pointer hover:underline">
             Terms & Conditions
           </span>
-          <span className="text-xl font-bold p-2 cursor-pointer">
+          <span className="text-xl font-bold p-2 cursor-pointer hover:underline">
             Privacy Policy
           </span>
-          <span className="flex flex-row cursor-pointer gap-7 justify-center items-center p-2 m-2 hover:text-slate-500 text-5xl">
-            <FaInstagramSquare />
-            <FaFacebookSquare />
-            <IoLogoYoutube />
-            <FaSquareXTwitter />
-            <FaLinkedin />
-          </span>
-          <span className="text-xl p-2 m-2 text-center">
+           <span className="text-xl p-2 m-2 text-center">
             <p>Copyright &copy; 2025 Pooja Designer Boutique</p>
           </span>
           <div>
@@ -59,6 +52,14 @@ const Qna = () => {
               All rights reserved. Designed by <b>Pooja Designer Boutique.</b>
             </p>
           </div>
+          <span className="flex flex-row cursor-pointer gap-7 justify-center items-center p-2 m-2 text-3xl">
+            <FaInstagramSquare className='cursor-pointer hover:text-stone-600'/>
+            <FaFacebookSquare className='cursor-pointer hover:text-stone-600' />
+            <IoLogoYoutube className='cursor-pointer hover:text-stone-600' />
+            <FaSquareXTwitter className='cursor-pointer hover:text-stone-600' />
+            <FaLinkedin className='cursor-pointer hover:text-stone-600' />
+          </span>
+         
         </div>
       </div>
       <div className="  grid-cols-1  p-2 m-2">

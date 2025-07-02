@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./landingPage/Navbar";
-import HomeSection from "./landingPage/HomeSection";
+import Navbar from "./landingPage/Navbar.jsx";
+import HomeSection from "./landingPage/HomeSection.jsx";
 import MainSection from "./landingPage/MainSection.jsx";
 import ImageSection from "./landingPage/ImageSection.jsx";
 import Buy from "./landingPage/Buy.jsx";
@@ -16,17 +16,19 @@ import Footer from "./landingPage/Footer.jsx";
    function App() {
        return (
           <div>
-            <Navbar />
-            <HomeSection />
-            <MainSection />
-            <ImageSection />
-            <Buy />
-            <Qna />
-            <Fun />
-            <Contract />
-            <Info />
-            <Support />
-            <Footer />
+             <Navbar />
+               <HomeSection />
+               <MainSection />
+               <ImageSection />
+               <Buy />
+               <Fun />
+               <Contract />
+               <Info />
+               <Support />
+               <Footer />
+               <Qna />
+
+
           </div> 
        );
    }
