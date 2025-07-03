@@ -1,6 +1,7 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,31 +16,31 @@ const Navbar = () => {
         </div>
         <div className=" rounded-lg w-2/5  ">
           <ul className="flex flex-row justify-evenly gap-x-8 text-[19px] items-center list-none ">
-            <li className='cursor-pointer hover:text-slate-400 font-semibold'>
+            <Link to="/"><li className='cursor-pointer hover:text-slate-400 font-semibold'>
               Home
-            </li>
-            <li className='cursor-pointer hover:text-slate-400 font-semibold'>
+            </li></Link>
+            <Link to="/about"><li className='cursor-pointer hover:text-slate-400 font-semibold'>
               About
+            </li></Link>
+            <li className='cursor-pointer hover:text-slate-400 font-semibold'>
+             Blog
             </li>
             <li className='cursor-pointer hover:text-slate-400 font-semibold'>
-              Fashions{" "}
+              Fashions
             </li>
             <li className='cursor-pointer hover:text-slate-400 font-semibold'>
-              Shop
+               Collection
             </li>
-            <li className='cursor-pointer hover:text-slate-400 font-semibold'>
-              Weddings
-            </li>
-            <li className='cursor-pointer hover:text-slate-400 font-semibold'>
-              Collection
-            </li>
-            <li className='cursor-pointer hover:text-slate-400 font-semibold '>
+            <Link to="/contacts"><li className='cursor-pointer hover:text-slate-400 font-semibold'>
+             Contacts
+            </li></Link>
+            <Link to="/support"><li className='cursor-pointer hover:text-slate-400 font-semibold '>
               Support
-            </li>
-            <li className="text-3xl cursor-pointer hover:text-2xl hover:text-slate-800">
+            </li></Link>
+            <li className="text-3xl cursor-pointer hover:animate-bounce hover:text-slate-700">
               <FaShoppingCart />
             </li>
-            <li  className="text-3xl cursor-pointer hover:text-slate-800 flex float-end"
+            <li  className="text-3xl cursor-pointer hover:text-slate-600 flex float-end hover:animate-pulse" title="Login"
             ><FiLogIn /></li>
           </ul>
         </div>

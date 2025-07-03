@@ -1,36 +1,26 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./landingPage/Navbar.jsx";
-import HomeSection from "./landingPage/HomeSection.jsx";
-import MainSection from "./landingPage/MainSection.jsx";
-import ImageSection from "./landingPage/ImageSection.jsx";
-import Buy from "./landingPage/Buy.jsx";
-import Qna from "./landingPage/Qna.jsx";
-import Fun from "./landingPage/Fun.jsx";
-import Contract from "./landingPage/Contract.jsx";
-import Info from "./landingPage/Info.jsx";
-import Support from "./landingPage/Support.jsx";
-import Footer from "./landingPage/Footer.jsx";
-    
+import { BrowserRouter, Routes , Route} from "react-router-dom";
 
-   function App() {
-       return (
-          <div>
-             <Navbar />
-               <HomeSection />
-               <MainSection />
-               <ImageSection />
-               <Buy />
-               <Fun />
-               <Contract />
-               <Info />
-               <Support />
-               <Footer />
-               <Qna />
+import HeroRoute from "./landingPage/Home/HeroRoute.jsx";
+import About from "./landingPage/about/AboutPage.jsx";
+import ContactPage from "./landingPage/Contacts/ContactPage.jsx";
+import SupportPage from "./landingPage/support/SupportPage.jsx";
+ 
+ 
 
-
-          </div> 
-       );
-   }
+function App() {
+  return (
+      <BrowserRouter>
+       <Routes>
+        <Route path="/" element={<HeroRoute />} />
+        <Route path="/about" element={<About />} />
+         <Route path="/contacts" element={<ContactPage />} />
+         <Route path="/support" element={<SupportPage />} />
+        <Route path="/*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+      </BrowserRouter>
+  )
+}
 
    export default App;
