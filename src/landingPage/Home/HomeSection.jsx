@@ -1,5 +1,6 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
+ 
 
 const slides = [
   {
@@ -33,7 +34,7 @@ const HomeSection = () => {
             Pooja Designer Boutique
           </h1>
 
-          <form action="" className="flex items-center">
+          <form action="" className="flex justify-end">
             <span className="text-gray-500">
               <i className="fas fa-search"></i>
             </span>
@@ -44,13 +45,15 @@ const HomeSection = () => {
               name="search"
             />
           </form>
-        </div>
+       
       
+       </div>
+       </div>
         <div className="w-full h-fit relative overflow-hidden rounded-lg shadow-lg">
           <ImageSlider slides={slides} />
         </div>
       </div>
-    </div>
+    
   );
 };
 

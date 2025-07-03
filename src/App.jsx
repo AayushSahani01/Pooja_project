@@ -6,17 +6,20 @@ import HeroRoute from "./landingPage/Home/HeroRoute.jsx";
 import About from "./landingPage/about/AboutPage.jsx";
 import ContactPage from "./landingPage/Contacts/ContactPage.jsx";
 import SupportPage from "./landingPage/support/SupportPage.jsx";
+import Login from "./landingPage/signup/Login.jsx";
  
  
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/">
        <Routes>
         <Route path="/" element={<HeroRoute />} />
         <Route path="/about" element={<About />} />
          <Route path="/contacts" element={<ContactPage />} />
          <Route path="/support" element={<SupportPage />} />
+         <Route path="/login" element={<Login />} />
+
         <Route path="/*" element={<h1>404 Not Found</h1>} />
       </Routes>
       </BrowserRouter>

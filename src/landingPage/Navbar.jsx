@@ -3,6 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   return (
     <div className="Container p-0 m-0 rounded-sm shadow-lg fixed w-full h-fit bg-slate-100 z-10">
