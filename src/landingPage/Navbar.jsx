@@ -42,7 +42,9 @@ const Navbar = () => {
               <FaShoppingCart />
             </li>
             <li  className="text-3xl cursor-pointer hover:text-slate-600 flex float-end hover:animate-pulse" title="Login"
-            ><FiLogIn /></li>
+            >
+             <FiLogIn />
+              </li>
           </ul>
         </div>
       </div>

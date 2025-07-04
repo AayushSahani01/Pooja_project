@@ -7,7 +7,7 @@ const InterUserFace = () => {
     <>
     <Signup />
      <div>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, beatae.</h1>
+        <h1>login or signup route redirects here.</h1>
      </div>
      <Login />
      </>
