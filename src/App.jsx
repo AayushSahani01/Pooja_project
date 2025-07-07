@@ -8,22 +8,32 @@ import ContactPage from "./landingPage/Contacts/ContactPage.jsx";
 import SupportPage from "./landingPage/support/SupportPage.jsx";
 import Login from "./landingPage/signup/Login.jsx";
 import Signup from "./landingPage/signup/Signup.jsx";
- 
+import Blogs from "./landingPage/about/Blogs.jsx";
+import Fashions from "./landingPage/fashions/Fashions.jsx";
+import Collection from "./landingPage/fashions/Collection.jsx";
+import NotPages from "./NotPages.jsx";
+import Orders from "./landingPage/cart/Orders.jsx";
+
  
 
 function App() {
   return (
+    
       <BrowserRouter basename="/">
        <Routes>
         <Route path="/" element={<HeroRoute />} />
+        <Route path="/" element={<logo />} />
         <Route path="/about" element={<About />} />
          <Route path="/contacts" element={<ContactPage />} />
          <Route path="/support" element={<SupportPage />} />
          <Route path="/signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
-
-
-        <Route path="/*" element={<h1>404 Not Found</h1>} />
+         <Route path="/blog" element={<Blogs />} />
+         <Route path="/fashion" element={<Fashions />} />
+         <Route path="/collection" element={<Collection />} />
+         <Route path="/order" element={<Orders />} />
+         <Route path="/login" element={<Login />} />
+        <Route path="/*" element={<NotPages />} />
       </Routes>
       </BrowserRouter>
   )
