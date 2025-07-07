@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
-    const [email, setEmail] = useState("anshu@gmail.com");
+    const [emailId, setEmailId] = useState("anshu@gmail.com");
     const [password, setPassword] = useState("12345678");
     const handler = async () => {
         const response = await axios.post("http://localhost:3000/login",{
-            email,
+            emailId,
             password
         })
         console.log(response);
@@ -28,8 +28,8 @@ const Login = () => {
                         id="email"
                         className="w-full p-2 border border-gray-400 rounded-xl"
                         placeholder="example@gmail.com"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={emailId}
+                        onChange={(e) => setEmailId(e.target.value)}
                     />
                 </div>
                 <div className="mb-4 p-1">

@@ -3,7 +3,7 @@ import React from "react";
 const MainSection = () => {
   return (
     <div className="p-4">
-      <div className="p-3 m-2 text-center text-3xl font-medium font-sarif">
+      <div className="p-3 m-4 text-center text-3xl font-medium font-sarif">
         <h1>Best Boutique In Noida</h1>
       </div>
       <div className="p-3 m-2 font-light text-xl border border-gray-500 rounded-xl">

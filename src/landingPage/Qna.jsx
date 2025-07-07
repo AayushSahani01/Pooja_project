@@ -11,7 +11,7 @@ const Qna = () => {
  
    
   return (
-    <div className=" grid grid-cols-3 p-2 m-2 gap-4 border-t-2 border-gray-300 shadow-lg">
+    <div className="h-screen grid grid-cols-3 p-2 m-2 gap-4 border-t-2 border-gray-300 shadow-lg">
       <div className="flex flex-col ">
         <span className=" flex flex-coljustify-center items-center p-2 m-1 ">
           <img

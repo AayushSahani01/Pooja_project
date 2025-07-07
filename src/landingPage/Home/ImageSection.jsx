@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageSection = () => {
   return (
-    <div className="p-6 m-4 mt-10  flex flex-row">
+    <div className="p-4 m-4 mt-6  flex flex-row">
       <div className="grid grid-cols-4 gap-4 ">
         <div className= "">
           <img src="../assets/image1.jpg" alt="image" />

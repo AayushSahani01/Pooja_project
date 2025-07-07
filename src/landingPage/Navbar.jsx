@@ -2,21 +2,19 @@ import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
 import { Link } from "react-router-dom";
-
-
 const Navbar = () => {
   return (
-    <div className="Container p-0 m-0 rounded-sm shadow-lg fixed w-full h-fit bg-slate-100 z-10">
+    <div className="Container p-0 m-0 rounded-sm shadow-lg fixed w-full h-fit bg-slate-200 z-10">
       <div className="row flex flex-row justify-evenly items-center  ">
-        <div className="w-1/5">
+        <div className="w-2/6">
           <img
             src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/images-2.jpg"
             alt="logo"
             className="w-18 h-14 rounded-full"
           />
         </div>
-        <div className=" rounded-lg w-2/5  ">
-          <ul className="flex flex-row justify-evenly gap-x-8 text-[19px] items-center list-none ">
+        <div className=" rounded-lg w-3/6  ">
+          <ul className="flex flex-row justify-evenly gap-x-4 text-[19px] items-center list-none text-orange-600 ">
             <Link to="/"><li className='cursor-pointer hover:text-slate-400 font-semibold'>
               Home
             </li></Link>
