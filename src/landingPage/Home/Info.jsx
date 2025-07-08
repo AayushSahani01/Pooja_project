@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="  p-4 mt-4 grid-cols-2 ">
+    <div className="  p-2 mt-4 grid-cols-2 ">
       <div className="  flex flex-row">
         <div className="grid grid-col-1 px-28 gap-4">
           <h2 className="text-2xl font-bold">Contact-Us</h2>
@@ -28,24 +28,22 @@ const Info = () => {
             placeholder="Your name"
             className="border border-b-gray-700 rounded-lg p-2 w-fit "
           />
-          <label htmlFor="">Email:(required)</label>
+          <label htmlFor="">Email:</label>
           <input
             type="text"
             placeholder="Enter E-mail"
             className="border border-b-gray-700 rounded-lg p-2 w-fit"
           />
           <label htmlFor="">Message:</label>
-          <input
-            type="text"
-            placeholder="Type your message here..."
-            className="border border-b-gray-700 p-4 rounded-lg w-fit"
-          />
+          <textarea id="w3review" name="" rows="4" cols="400" className="border border-slate-400 w-50  rounded-sm"> </textarea>
+          <div className="w-50">
           <button
             type="button"
-            className="  rounded-full text-2xl bg-gray-800 flex justify-self-center text-white p-4 m-2 cursor-pointer hover:bg-stone-600 transition-colors duration-300   "
+            className="  rounded-lg text-xl bg-gray-800 justify-self-center text-white p-2 m-4 cursor-pointer hover:bg-stone-600 "
           >
-            Submit
+            Submit Feedback
           </button>
+          </div>
         </div>
       </div>
     </div>

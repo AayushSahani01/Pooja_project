@@ -25,18 +25,18 @@ const Footer = () => {
             Subscribe
           </button>
         </div>
-        <div className=" m-2 px-48 flex-wrap  grid grid-cols-2 text-xl font-semibold">
-          <div className="flex flex-row justify-between">
+        <div className=" m-2 px-48 flex-wrap text-xl font-semibold flex ">
+          <div className="flex-row justify-between grid grid-cols-2 ">
             <div className="grid grid-cols-1">
               <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Blog</div>
               <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Home</div>
               <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">About</div>
               <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Contract</div>
             </div>
-            <div className="grid grid-cols-1">
-              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Support</div>
-              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Policy</div>
-              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">visit-Us</div>
+            <div className="grid grid-cols-2">
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Support</div><br/>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Policy</div><br/>
+              <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">visit-Us</div><br/>
               <div className=" cursor-pointer hover:text-stone-600 transition-colors duration-300 hover:underline">Shopping</div>
             </div>
           </div>

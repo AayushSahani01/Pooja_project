@@ -4,9 +4,9 @@ import axios from "axios";
 
 
 const Signup = () => {
-  const [firstName , setFirstName ] = useState("Aanshu");
-const [email , setEmail ] = useState("anshu@gmail.com");
-const [password , setPassword ] = useState("anshu1234");
+  const [firstName , setFirstName ] = useState("");
+const [email , setEmail ] = useState("");
+const [password , setPassword ] = useState("");
 const handler = async () => {
   const response = await axios.post("http://localhost:3000/signup",{
     firstName,

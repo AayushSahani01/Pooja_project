@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
-    const [emailId, setEmailId] = useState("anshu@gmail.com");
-    const [password, setPassword] = useState("12345678");
+    const [emailId, setEmailId] = useState("");
+    const [password, setPassword] = useState("");
     const handler = async () => {
         const response = await axios.post("http://localhost:3000/login",{
             emailId,
