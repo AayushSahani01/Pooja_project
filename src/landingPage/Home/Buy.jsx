@@ -2,17 +2,17 @@ import React from "react";
 
 const Buy = () => {
   return (
-    <div className="border-t-4 border-gray-300 p-8 m-4">
-      <div className="grid grid-cols-2 ">
-        <div>
+    <div className="flex grid-cols-2  border-gray-300 p-0 m-0">
+      <div className="p-4">
+        <div className="flex justify-center-safe grid-cols-1 w-full ">
           <img src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/nd2925.webp" alt="images" srcset="" />
         </div>
-        <div className="px-6 py-48 mt-12 shadow-2xl">
+        <div className="shadow-2xl grid-cols-2">
           <h1 className="text-3xl font-bold text-center p-4 m-4">
             Pooja Designer Boutique
           </h1>
           <div>
-          <p className="font-extralight font-serif py-10 m-4">
+          <p className="font-extralight font-serif p-8 m-4">
             Pooja Designer Boutique is where we make fashion dreams come true
             without compromising in any way on reality-the manifestation of
             desires in the world of fashion. We add an exquisite array of

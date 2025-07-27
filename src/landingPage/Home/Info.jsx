@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="  p-2 mt-4 grid-cols-2 ">
+    <div className="contact p-2 mt-4 grid-cols-2">
       <div className="  flex flex-row">
         <div className="grid grid-col-1 px-28 gap-4">
           <h2 className="text-2xl font-bold">Contact-Us</h2>

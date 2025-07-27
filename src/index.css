@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
 .dark{
-    background-color: black;
+    background-color: #070125;
     color: white;
+}
+.contact{
+    @media screen {
+        
+    }
+    @supports (grid-area: auto) {
+        grid-column: auto;
+    }
 }
