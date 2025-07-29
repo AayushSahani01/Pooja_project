@@ -1,6 +1,7 @@
 import { Container } from "lucide-react";
 import React,{useState} from "react";
-import { FaShoppingCart } from "react-icons/fa";
+// import { FaShoppingCart } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
 import { MdMenu } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -57,9 +58,10 @@ const Navbar = () => {
                     Support
                   </li>
                 </Link>
-                <Link to="/order">
+                <Link to="https://github.com/AayushSahani01/Pooja_project">
                   <li id="8" title="Order" className="text-3xl cursor-pointer hover:animate-bounce hover:text-slate-700">
-                    <FaShoppingCart />
+                    {/* <FaShoppingCart /> */}
+<FaGithubSquare />
                   </li>
                 </Link>
                 <Link to={"/login"}>
