@@ -59,7 +59,7 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link to="https://github.com/AayushSahani01/Pooja_project">
-                  <li id="8" title="Order" className="text-3xl cursor-pointer hover:animate-bounce hover:text-slate-700">
+                  <li id="8" title="Github-repo" className="text-3xl cursor-pointer hover:animate-bounce hover:text-slate-700">
                     {/* <FaShoppingCart /> */}
 <FaGithubSquare />
                   </li>

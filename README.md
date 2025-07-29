@@ -1,12 +1,71 @@
-# React + Vite
+# Project Setup and Contribution Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+1. [Project Setup](#project-setup)
+2. [Contributing to the Project](#contributing-to-the-project)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Setup
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Install [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/) on your local machine
+* Familiarize yourself with the project's codebase and directory structure
+
+### Step 1: Clone the Repository
+
+Clone the project repository using the following command:
+
+```bash
+git clone https://github.com/username/project-repo.git
+```
+
+### Step 2: Install Dependencies
+
+Navigate to the project directory and install the required dependencies:
+
+```bash
+cd project-repo
+npm install
+```
+
+### Step 3: Start the Development Server
+
+Start the development server using the following command:
+
+```bash
+npm run dev
+```
+
+## Contributing to the Project
+
+### Step 1: Fork the Repository
+
+Fork the project repository to your own GitHub account.
+
+### Step 2: Create a New Branch
+
+Create a new branch for your feature or bug fix:
+
+```bash
+git checkout -b feature-repo-name
+```
+
+### Step 3: Make Changes and Commit
+
+Make changes to the codebase and commit them:
+
+```bash
+git add .
+git commit -m "feat: add my feature"
+```
+
+### Step 4: Push Changes and Create a Pull Request
+
+Push your changes to your forked repository:
+
+```bash
+git push origin feature-repo-name
+```
+
+ 
