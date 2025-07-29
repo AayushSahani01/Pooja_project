@@ -13,6 +13,7 @@ import Fashions from "./landingPage/fashions/Fashions.jsx";
 import Collection from "./landingPage/fashions/Collection.jsx";
 import NotPages from "./NotPages.jsx";
 import Orders from "./landingPage/cart/Orders.jsx";
+import OnTopBar from "./landingPage/OnTopBar.jsx";
 
  
 
@@ -35,6 +36,7 @@ function App() {
          <Route path="/login" element={<Login />} />
         <Route path="/*" element={<NotPages />} />
       </Routes>
+      <OnTopBar />
       </BrowserRouter>
   )
 }
