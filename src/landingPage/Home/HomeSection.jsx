@@ -1,6 +1,7 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
 import ThemeToggle from "../ThemeToggle";
+import { SearchIcon } from "lucide-react";
  
 
 const slides = [
@@ -27,25 +28,28 @@ const slides = [
 ];
 const HomeSection = () => {
   return (
-    <div className="  p-6 m-0  rounded-lg shadow-lg">
+    <div className="flex flex-col py-4 m-0 rounded-lg shadow-lg">
       <div className="flex flex-col p-1 m-1  ">
         <div className="p-12 m-0 flex items-start justify-between w-full font-mono ">
-          <h1 className="text-2xl font-serif font-bold underline decoration-amber-800">
+          <h1 className="text-2xl font-serif font-bold underline decoration-amber-600">
             {" "}
             Pooja Designer Boutique
           </h1>
-          <div className="flex gap-x-10">
-          <form action="" className="">
-            <span className="text-gray-500 ">
-              <i className="fas fa-search"></i>
-            </span>
+          <div className="flex items-center gap-4 pr-4">
+          <form className="flex border-2 border-gray-300 rounded-full p-2 hover:border-stone-600">
+          
             <input
-              type="text"
-              placeholder="Search..."
-              className="p-1.5 text-xl rounded-lg border border-gray-500 "
+              type="Search"
+              placeholder="Enter your Text here..."
               name="search"
+              aria-label="Search"
+              className=" focus:outline-none m-"
             />
+   
+            <SearchIcon className="w-6 h-6 hover:cursor-pointer hover:text-stone-600 "/>
+          
           </form>
+         
              <ThemeToggle />
        </div>
        

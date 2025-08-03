@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaAnglesLeft, FaAnglesRight } from "react-icons/fa6";
-import HomeSection from "./HomeSection";
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -41,13 +40,13 @@ const ImageSlider = ({ slides }) => {
     >
       <div style={{ slideStyles }}>
         <div
-          className="text-3xl text-white bg-yellow-900 absolute top-1/2 left-0 cursor-pointer text-center"
+          className="text-3xl absolute top-1/2 left-0.2 border bg-slate-400 cursor-pointer text-center"
           onClick={goToPrev}
         >
           <FaAnglesLeft />
         </div>
         <div
-          className="text-3xl text-white bg-yellow-900 absolute top-1/2 right-0 cursor-pointer text-center"
+          className="text-3xl absolute top-1/2 right-2 border bg-slate-400 cursor-pointer text-center"
           onClick={goToNext}
         >
           <FaAnglesRight />
@@ -57,7 +56,7 @@ const ImageSlider = ({ slides }) => {
           src={slides[currentIndex].url}
           alt="images"
           srcset=""
-          style={{ width: "100%", height: 960 }}
+          style={{ width: "100%", height: "100%" }}
         />
       </div>
     </div>

@@ -16,7 +16,7 @@ const Navbar = () => {
               <img
                 src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/images-2.jpg"
                 alt="logo"
-                className="w-18 h-14 rounded-full"
+                className="w-18 h-14 rounded-full cursor-pointer hover:scale-110 transition-transform duration-300"
               />
             </Link>
           </div>
@@ -24,37 +24,37 @@ const Navbar = () => {
             <div className="rounded-lg w-3/6">
               <ul className="flex flex-row justify-evenly gap-x-4 text-[19px] items-center list-none"> 
                 <Link to="/">
-                  <li id="1"title="Home" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="1"title="Home" className="cursor-pointer font-semibold hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1  ">
                     Home
                   </li>
                 </Link>
                 <Link to="/about">
-                  <li id="2"title="About" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="2"title="About" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1 font-semibold">
                     About
                   </li>
                 </Link>
                 <Link to="/blog">
-                  <li id="3" title="Blog" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="3" title="Blog" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1  font-semibold">
                     Blog
                   </li>
                 </Link>
                 <Link to="/fashion">
-                  <li id="4"title="Fashion" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="4"title="Fashion" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1  font-semibold">
                     Fashions
                   </li>
                 </Link>
                 <Link to="/collection">
-                  <li id="5"title="Collection" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="5"title="Collection" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1  font-semibold">
                     Collection
                   </li>
                 </Link>
                 <Link to="/contacts">
-                  <li id="6" title="Contacts" className="cursor-pointer hover:text-slate-400 font-semibold">
+                  <li id="6" title="Contacts" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1 font-semibold">
                     Contacts
                   </li>
                 </Link>
                 <Link to="/support">
-                  <li id="7"title="Support" className="cursor-pointer hover:text-slate-400 font-semibold ">
+                  <li id="7"title="Support" className="cursor-pointer hover:text-slate-400 hover:border border-orange-600 rounded-sm p-1  font-semibold ">
                     Support
                   </li>
                 </Link>

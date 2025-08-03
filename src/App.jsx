@@ -23,7 +23,6 @@ function App() {
       <BrowserRouter basename="/">
        <Routes>
         <Route path="/" element={<HeroRoute />} />
-        <Route path="/" element={<logo />} />
         <Route path="/about" element={<About />} />
          <Route path="/contacts" element={<ContactPage />} />
          <Route path="/support" element={<SupportPage />} />
