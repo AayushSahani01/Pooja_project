@@ -1,6 +1,7 @@
 import React ,{useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Navbar from "../Navbar";
 
 const Login = () => {
     const [emailId, setEmailId] = useState("");
@@ -15,6 +16,7 @@ const Login = () => {
     
     return (
         <div className="min-h-screen bg-slate-200 text-black">
+        <Navbar/>
         <div className="flex flex-col items-center justify-center h-fit ">
             <h1 className="text-3xl font-bold underline p-4 mt-14">Login Your Account</h1>
             <p className="mb-10 text-gray-600">Please enter your email and password to login</p>

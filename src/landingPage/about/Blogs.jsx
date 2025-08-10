@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../Navbar'
 
 const Blogs = () => {
   return (
     <>
-    <div className="p-4">
+    <Navbar/>
+    <div className="p-12 bg-orange-100">
       <div className="p-3 m-4 text-center text-3xl font-medium font-sarif">
         <h1>Blogs POST Wriiten here</h1>
       </div>

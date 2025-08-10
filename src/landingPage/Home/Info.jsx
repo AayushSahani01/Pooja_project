@@ -2,26 +2,27 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="contact p-2 mt-4 grid-cols-2">
-      <div className="  flex flex-row">
-        <div className="grid grid-col-1 px-28 gap-4">
-          <h2 className="text-2xl font-bold">Contact-Us</h2>
-          <div className="text-lg font-semibold underline">
-            <p> (123) 456-7890</p>
-          </div>
-          <div className="text-lg font-sarif underline font-bold">
-            <p>hi@mygroovydomain.com</p>
-          </div>
+    <div className="contact grid grid-cols-2">
+      <div className=" flex flex-row justify-baseline text-center items-baseline-center ">
+        <div className="grid-col-1 p-2">
+        
+          <h2 className="text-2xl font-bold p-2">Contact-Us</h2>
+      
+            <p className="text-lg font-semibold underline pt-4"> (123) 456-7890</p>
+    
+     
+            <p className="text-lg font-sarif underline font-bold pt-4">hi@mygroovydomain.com</p>
+       
 
-          <div className="text-lg  underline font-extralight">
-            <p>123 Example Street</p>
-          </div>
+     
+            <p className="text-lg  underline font-extralight pt-4">123 Example Street</p>
+     
 
-          <div className=" font-serif text-xl font-light underline">
-            <p>San Franciso, CA 12345</p>
-          </div>
+         
+            <p  className=" font-serif text-xl font-light underline pt-4">San Franciso, CA 12345</p>
+          
         </div>
-        <div className="grid grid-cols-2 px-96 gap-4 ">
+        <div className="grid grid-cols-2 gap-2 justify-center items-baseline-center">
           <label htmlFor="">Name:</label>
           <input
             type="text"
@@ -35,18 +36,18 @@ const Info = () => {
             className="border border-b-gray-700 rounded-lg p-2 w-fit"
           />
           <label htmlFor="">Message:</label>
-          <textarea id="w3review" name="" rows="4" cols="400" className="border border-slate-400 w-50  rounded-sm"> </textarea>
-          <div className="w-50">
+          <textarea id="w3review" name="" rows="4" cols="400" className="border border-slate-400 w-50  rounded-sm"  placeholder="Enter your message...!!" value="">  </textarea>
+          
           <button
             type="button"
-            className="  rounded-lg text-xl bg-gray-800 justify-self-center text-white p-2 m-4 cursor-pointer hover:bg-stone-600 "
+            className="text-xl bg-gray-800  text-white p-2 m-4 cursor-pointer hover:bg-stone-600 justify-center items-baseline-center transition-colors duration-300 rounded-full text-center"
           >
             Submit Feedback
           </button>
           </div>
         </div>
       </div>
-    </div>
+ 
   );
 };
 
