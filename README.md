@@ -7,7 +7,8 @@
 
 ## Project Setup
 
-<img width="1920" height="1080" alt="Screenshot 2025-08-10 164202" src="https://github.com/user-attachments/assets/ecff6735-a31c-4b34-bc8d-1063b6a20a61" />
+<img width="1920" height="1080" alt="Screenshot 2025-08-11 112314" src="https://github.com/user-attachments/assets/b0433574-41bf-45f8-b17c-3bc812d4a574" />
+
 
 
 ### Prerequisites
