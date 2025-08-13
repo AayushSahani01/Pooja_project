@@ -3,7 +3,8 @@
 ## Table of Contents
 
 1. [Project Setup](#project-setup)
-2. [Contributing to the Project](#contributing-to-the-project)
+   
+3. [Contributing to the Project](#contributing-to-the-project)
 
 ## Project Setup
 
@@ -21,7 +22,9 @@
 Clone the project repository using the following command:
 
 ```bash
+
 git clone https://github.com/username/project-repo.git
+
 ```
 
 ### Step 2: Install Dependencies
@@ -29,16 +32,22 @@ git clone https://github.com/username/project-repo.git
 Navigate to the project directory and install the required dependencies:
 
 ```bash
+
 cd project-repo
+
 npm install
+
 ```
+
 
 ### Step 3: Start the Development Server
 
 Start the development server using the following command:
 
 ```bash
+
 npm run dev
+
 ```
 
 ## Contributing to the Project
@@ -52,7 +61,9 @@ Fork the project repository to your own GitHub account.
 Create a new branch for your feature or bug fix:
 
 ```bash
+
 git checkout -b feature-repo-name
+
 ```
 
 ### Step 3: Make Changes and Commit
@@ -60,9 +71,11 @@ git checkout -b feature-repo-name
 Make changes to the codebase and commit them:
 
 ```bash
+
 git add .
 git commit -m "feat: add my feature"
-```
+
+````
 
 ### Step 4: Push Changes and Create a Pull Request
 
@@ -70,6 +83,13 @@ Push your changes to your forked repository:
 
 ```bash
 git push origin feature-repo-name
+
 ```
+
+# Backend-repo-url
+
+```
+https://github.com/AayushSahani01/pooja_backend
+
 
  
