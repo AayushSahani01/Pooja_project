@@ -13,6 +13,8 @@ import Collection from "./landingPage/fashions/Collection.jsx";
 import NotPages from "./NotPages.jsx";
 import Orders from "./landingPage/cart/Orders.jsx";
 import OnTopBar from "./landingPage/OnTopBar.jsx";
+import ShopNow from "./landingPage/fashions/ShopNow.jsx";
+
 
  
 
@@ -30,6 +32,7 @@ function App() {
          <Route path="/blog" element={<Blogs />} />
          <Route path="/fashion" element={<Fashions />} />
          <Route path="/collection" element={<Collection />} />
+         <Route path="/shop" element={<ShopNow />} />
          <Route path="/order" element={<Orders />} />
          <Route path="/login" element={<Login />} />
         <Route path="/*" element={<NotPages />} />
