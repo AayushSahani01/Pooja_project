@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
           <input
             type="text"
-            value=""
+            defaultValue=""
             placeholder="Please enter your email...!"
             className="border border-gray-400 rounded-sm p-4 m-2   w-3/4"
           />

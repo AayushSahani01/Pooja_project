@@ -8,12 +8,14 @@ import SupportPage from "./landingPage/support/SupportPage.jsx";
 import Login from "./landingPage/signup/Login.jsx";
 import Signup from "./landingPage/signup/Signup.jsx";
 import Blogs from "./landingPage/about/Blogs.jsx";
+import BlogDetailPage from "./landingPage/about/BlogDetailPage.jsx";
 import Fashions from "./landingPage/fashions/Fashions.jsx";
 import Collection from "./landingPage/fashions/Collection.jsx";
 import NotPages from "./NotPages.jsx";
 import Orders from "./landingPage/cart/Orders.jsx";
 import OnTopBar from "./landingPage/OnTopBar.jsx";
 import ShopNow from "./landingPage/fashions/ShopNow.jsx";
+
 
 
  
@@ -29,7 +31,8 @@ function App() {
          <Route path="/support" element={<SupportPage />} />
          <Route path="/signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
-         <Route path="/blog" element={<Blogs />} />
+           <Route path="/blog" element={<Blogs />} />
+        <Route path="/blog/:id" element={<BlogDetailPage />} />
          <Route path="/fashion" element={<Fashions />} />
          <Route path="/collection" element={<Collection />} />
          <Route path="/shop" element={<ShopNow />} />
