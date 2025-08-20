@@ -17,7 +17,7 @@ const Qna = () => {
           <img
             src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/images-2.jpg"
             alt="logo.imgage"
-            srcset=""
+            srcSet=""
             width={150}
             className="flex justify-center items-center rounded-full"
           />
