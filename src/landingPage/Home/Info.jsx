@@ -1,53 +1,82 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Info = () => {
   return (
-    <div className="contact grid grid-cols-2">
-      <div className=" flex flex-row justify-baseline text-center items-baseline-center ">
-        <div className="grid-col-1 p-2">
-        
-          <h2 className="text-2xl font-bold p-2">Contact-Us</h2>
-      
-            <p className="text-lg font-semibold underline pt-4"> (123) 456-7890</p>
-    
-     
-            <p className="text-lg font-sarif underline font-bold pt-4">hi@mygroovydomain.com</p>
-       
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black px-6 py-12">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-8 md:p-12">
+        {/* LEFT SIDE - Contact Info */}
+        <motion.div
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.7 }}
+          className="flex flex-col justify-center text-white space-y-6"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Get in <span className="text-indigo-400">Touch</span>
+          </h2>
+          <p className="text-lg text-gray-300">
+            We’d love to hear from you! Whether you have a question, feedback,
+            or just want to say hello — drop us a message.
+          </p>
 
-     
-            <p className="text-lg  underline font-extralight pt-4">123 Example Street</p>
-     
+          <div className="space-y-4 mt-6">
+            <div className="flex items-center gap-4">
+              <FaPhoneAlt className="text-indigo-400 text-2xl" />
+              <span className="text-lg">(123) 456-7890</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaEnvelope className="text-indigo-400 text-2xl" />
+              <span className="text-lg">hi@mygroovydomain.com</span>
+            </div>
+            <div className="flex items-center gap-4">
+              <FaMapMarkerAlt className="text-indigo-400 text-2xl" />
+              <span className="text-lg">
+                123 Example Street, San Francisco, CA 12345
+              </span>
+            </div>
+          </div>
+        </motion.div>
 
-         
-            <p  className=" font-serif text-xl font-light underline pt-4">San Franciso, CA 12345</p>
-          
-        </div>
-        <div className="grid grid-cols-2 gap-2 justify-center items-baseline-center">
-          <label htmlFor="">Name:</label>
+        {/* RIGHT SIDE - Contact Form */}
+        <motion.form
+          initial={{ x: 50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.7 }}
+          className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg p-6 md:p-8 flex flex-col gap-5"
+        >
+          <h3 className="text-2xl font-semibold text-white mb-2">
+            Send us a Message
+          </h3>
+
           <input
             type="text"
-            placeholder="Your name"
-            className="border border-b-gray-700 rounded-lg p-2 w-fit "
+            placeholder="Your Name"
+            className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 outline-none focus:ring-2 focus:ring-indigo-400 transition"
           />
-          <label htmlFor="">Email:</label>
           <input
-            type="text"
-            placeholder="Enter E-mail"
-            className="border border-b-gray-700 rounded-lg p-2 w-fit"
+            type="email"
+            placeholder="Your Email"
+            className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 outline-none focus:ring-2 focus:ring-indigo-400 transition"
           />
-          <label htmlFor="">Message:</label>
-          <textarea id="w3review" name="" rows="4" cols="400" className="border border-slate-400 w-50  rounded-sm"  placeholder="Enter your message...!!" value="">  </textarea>
-          
-          <button
-            type="button"
-            className="text-xl bg-gray-800  text-white p-2 m-4 cursor-pointer hover:bg-stone-600 justify-center items-baseline-center transition-colors duration-300 rounded-full text-center"
+          <textarea
+            rows="4"
+            placeholder="Your Message"
+            className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 outline-none focus:ring-2 focus:ring-indigo-400 transition"
+          ></textarea>
+
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            type="submit"
+            className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 rounded-full transition duration-300 shadow-lg"
           >
             Submit Feedback
-          </button>
-          </div>
-        </div>
+          </motion.button>
+        </motion.form>
       </div>
- 
+    </div>
   );
 };
 
