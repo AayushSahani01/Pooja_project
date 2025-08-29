@@ -31,7 +31,7 @@ const ImageSection = () => {
         <div className= "hover:border-2 border-slate-300 hover:bg-slate-200 ">
           <img src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/koskii-red-zariwork-net-designer-readymadelehenga-gcbr0039483_red_1_3_large.webp" alt="image" />
           <h1 className="text-center font-bold underline hover:font-light">
-          Party Wear
+            Party Wear
           </h1>
         </div>
         <div className= "hover:border-2 border-slate-300 hover:bg-slate-200 ">
@@ -54,7 +54,8 @@ const ImageSection = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
 export default ImageSection;
+
