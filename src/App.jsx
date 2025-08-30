@@ -15,6 +15,7 @@ import NotPages from "./NotPages.jsx";
 import Orders from "./landingPage/cart/Orders.jsx";
 import OnTopBar from "./landingPage/OnTopBar.jsx";
 import ShopNow from "./landingPage/fashions/ShopNow.jsx";
+import ScrollToTop from "./scrolltotop.jsx";
 
 
 
@@ -24,6 +25,7 @@ function App() {
   return (
     
       <BrowserRouter basename="/">
+      <ScrollToTop/>
        <Routes>
         <Route path="/" element={<HeroRoute />} />
         <Route path="/about" element={<About />} />
