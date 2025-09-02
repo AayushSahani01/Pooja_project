@@ -32,7 +32,7 @@ const Blogs = () => {
     <>
       <Navbar />
 
-      <div className="bg-white min-h-screen px-6 md:px-12 lg:px-20 py-10">
+      <div className="pt-12 min-h-screen px-6 md:px-12 lg:px-20 py-10">
      <h2 className="text-3xl md:text-4xl mt-5 font-serif font-bold text-center mb-12 underline decoration-amber-600 decoration-4 underline-offset-8">
   Our Blogs & Stories
 </h2>
