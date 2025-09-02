@@ -30,7 +30,7 @@ const HomeSection = () => {
   return (
     <div className="flex flex-col py-4 m-0 rounded-lg shadow-lg">
       <div className="flex flex-col p-1 m-1  ">
-        <div className="p-12 m-0 flex items-start justify-between w-full font-mono ">
+        <div className="p-14 m-0 flex items-start justify-between w-full font-mono ">
           <h1 className="text-2xl font-serif font-bold underline decoration-amber-600">
             {" "}
             Pooja Designer Boutique
