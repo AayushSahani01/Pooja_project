@@ -22,11 +22,11 @@ const HeroRoute = () => {
             <ImageSection />
             <Buy />
             <Fun />
+            <Qna />
+            <Support />
             <Contract />
             <Info />
-            <Support />
             <Footer />
-            <Qna />
         </div>
     );
 };

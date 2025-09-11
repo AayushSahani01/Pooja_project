@@ -34,17 +34,17 @@ const Collection = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-b from-rose-50 via-white to-amber-50 py-12 px-6 font-serif">
+      <div className=" py-12 px-6 font-serif">
         {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl mt-10 font-bold text-center mb-6 underline decoration-amber-500"
+          className="text-5xl mt-16 font-bold text-center mb-6 underline decoration-amber-500"
         >
           Our Signature Collections
         </motion.h1>
-        <p className="text-center max-w-2xl mx-auto text-gray-600 mb-14 text-lg">
+        <p className="text-center max-w-2xl mx-auto text-gray-500 pt-2 mb-14 text-lg">
           Discover fashion that blends tradition with modern aesthetics.
           Handcrafted designs, premium fabrics, and timeless elegance curated
           for every occasion.
@@ -77,7 +77,7 @@ const Collection = () => {
 
               {/* Text Content */}
               <div className="md:w-1/2 text-center md:text-left">
-                <h2 className="text-3xl font-bold text-gray-800">
+                <h2 className="text-3xl font-bold">
                   {item.title}
                 </h2>
                 <p className="text-amber-600 italic mt-1">{item.subtitle}</p>

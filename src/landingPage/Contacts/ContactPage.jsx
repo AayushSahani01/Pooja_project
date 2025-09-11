@@ -1,22 +1,21 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Navbar.jsx';
-import Contract from '../Contract.jsx';
 import Footer from '../Footer.jsx';
+import Info from '../Home/Info.jsx';
 
 const ContactPage = () => {
     return (
-        <div>
-            <Navbar />
-            <Outlet />
-            <div className="about-section p-18 m-0 bg-slate-200 rounded-lg shadow-lg">
-                <h1>ContactPages Us</h1>
-                <p>We are a company dedicated to providing the best services to our customers.</p>
+        <>
+        <Navbar />
+            <div className="pt-24 m-0 text-center font-serif">
+                <h1 className='text-4xl font-bold'>Contact Us</h1>
+                <p className='text-2xl pt-2 text-slate-500'>We are a company dedicated to providing the best services to our customers.</p>
             </div>
-            <Contract />
+            <Info />
             <Footer />
    
-        </div>
+       </>
     );
 };
 
