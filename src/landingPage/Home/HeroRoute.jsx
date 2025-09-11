@@ -14,7 +14,7 @@ import MainSection from './MainSection';
 
 const HeroRoute = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Outlet />
             <HomeSection />
@@ -27,7 +27,7 @@ const HeroRoute = () => {
             <Contract />
             <Info />
             <Footer />
-        </div>
+        </>
     );
 };
 
