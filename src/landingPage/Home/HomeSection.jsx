@@ -28,14 +28,14 @@ const slides = [
 ];
 const HomeSection = () => {
   return (
-    <div className="flex flex-col py-4 m-0 rounded-lg shadow-lg">
-      <div className="flex flex-col p-1 m-1  ">
-        <div className="p-14 m-0 flex items-start justify-between w-full font-mono ">
-          <h1 className="text-2xl font-serif font-bold underline decoration-amber-600">
+    <>
+      <div className="pt-18 p-3 m-0">
+        <div className="pt-4 flex justify-between items-center ">
+          <h1 className="text-3xl pl-12 font-serif font-bold underline decoration-slate-600 ">
             {" "}
             Pooja Designer Boutique
           </h1>
-          <div className="flex items-center gap-4 pr-4">
+          <span className="flex items-center gap-4 pr-4">
           <form className="flex border-2 border-gray-300 rounded-full p-2 hover:border-stone-600">
           
             <input
@@ -51,17 +51,16 @@ const HomeSection = () => {
           </form>
          
              <ThemeToggle />
-       </div>
+       </span>
        
       
       
        </div>
        </div>
-        <div className="w-full h-fit relative overflow-hidden rounded-lg shadow-lg">
+        <div className="w-full h-screen bg-cover rounded-2xl  shadow-lg relative overflow-hidden ">
           <ImageSlider slides={slides} />
-        </div>
       </div>
-    
+    </>
   );
 };
 

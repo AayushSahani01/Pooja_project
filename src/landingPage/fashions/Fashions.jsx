@@ -49,16 +49,16 @@ const Fashions = () => {
   return (
     <>
       <Navbar />
-      <div className="px-6 py-10 font-serif bg-gradient-to-b from-pink-50 to-white">
+      <div className="px-6 py-10 font-serif ">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-4xl mt-10 font-bold text-center mb-12 underline decoration-pink-500"
+          className="text-4xl mt-14 font-bold text-center mb-12 underline decoration-pink-500"
         >
           Explore Our Fashion World
         </motion.h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {fashionItems.map((item, idx) => (
             <motion.div
               key={idx}

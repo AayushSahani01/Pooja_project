@@ -21,15 +21,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed w-full z-50 shadow-lg">
+    <div className="fixed w-full z-90 shadow-lg">
       {/* Top Scroll Line */}
       <div
-        className="h-[4px] bg-gradient-to-r from-red-500 to-orange-600 transition-all duration-300"
+        className="h-[4px] bg-gradient-to-r from-red-800 via-red-500 to-orange-800 transition-all duration-300"
         style={{ width: `${scrollWidth}%` }}
       ></div>
 
       {/* Navbar */}
-      <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white">
+      <div className="bg-gradient-to-r from-red-500 via-red-400 to-orange-500  text-white">
         <div className="flex flex-row justify-evenly items-center px-4 py-2">
           {/* Logo */}
           <div className="w-2/6">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 { title: "Fashions", link: "/fashion" },
                 { title: "Collection", link: "/collection" },
                 { title: "Contacts", link: "/contacts" },
-                { title: "Support", link: "/support" },
+                { title: "Order", link: "/order" },
               ].map((item, index) => (
                 <Link to={item.link} key={index}>
                   <li className="cursor-pointer font-semibold hover:text-black hover:bg-white hover:rounded-md px-2 py-1 transition-all duration-300">
@@ -93,7 +93,7 @@ const Navbar = () => {
                     { title: "Fashions", link: "/fashion" },
                     { title: "Collection", link: "/collection" },
                     { title: "Contacts", link: "/contacts" },
-                    { title: "Support", link: "/support" },
+                    { title: "Order", link: "/order" },
                   ].map((item, index) => (
                     <Link
                       to={item.link}

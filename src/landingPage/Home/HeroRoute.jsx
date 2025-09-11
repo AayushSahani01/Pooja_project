@@ -14,20 +14,20 @@ import MainSection from './MainSection';
 
 const HeroRoute = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Outlet />
             <HomeSection />
             <MainSection />
             <ImageSection />
             <Buy />
-            <Faq />
+            <Faq />           
+            <Qna />
+            <Support />
             <Contract />
             <Info />
-            <Support />
             <Footer />
-            <Qna />
-        </div>
+        </>
     );
 };
 

@@ -298,7 +298,7 @@ const Footer = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-50 p-3 bg-gradient-to-br from-stone-800 to-stone-900 text-amber-400 rounded-full shadow-lg border border-stone-700/50 hover:from-amber-500 hover:to-pink-500 hover:text-white transition-all duration-300 transform hover:scale-110"
+          className="fixed bottom-8 right-5 z-50 p-4 bg-gradient-to-br from-stone-800 to-stone-900 text-amber-400 rounded-full shadow-lg border border-stone-700/50 hover:from-amber-500 hover:to-pink-500 hover:text-white transition-all duration-300 transform hover:scale-110"
           aria-label="Scroll to top"
         >
           <BsArrowUpCircle className="text-xl" />

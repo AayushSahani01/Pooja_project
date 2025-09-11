@@ -10,13 +10,15 @@ const SupportPage = () => {
   return (
      <>
        <Navbar />
-       <Outlet />
-       <div className='text-center p-16 m-0 bg-amber-200'>
-        <h1>
-          SupportPage Is Created!!
+       <div className='text-center pt-20 m-0'>
+        <h1 className='text-xl font-bold p-4 m-2'>
+          Order's Details! 
         </h1>
+        <h1 className='text-sm m-2'>
+          Details here written
+          </h1>
        </div>
-       <Support />
+       
        <Footer />
        <Qna />
      </>

@@ -30,7 +30,7 @@ function App() {
         <Route path="/" element={<HeroRoute />} />
         <Route path="/about" element={<About />} />
          <Route path="/contacts" element={<ContactPage />} />
-         <Route path="/support" element={<SupportPage />} />
+         <Route path="/order" element={<SupportPage />} />
          <Route path="/signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
            <Route path="/blog" element={<Blogs />} />
@@ -42,7 +42,6 @@ function App() {
          <Route path="/login" element={<Login />} />
         <Route path="/*" element={<NotPages />} />
       </Routes>
-      <OnTopBar />
       </BrowserRouter>
   )
 }
