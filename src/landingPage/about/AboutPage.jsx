@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-b from-white to-pink-50 min-h-screen px-6 py-12 font-serif">
+      <div className=" px-6 py-12 font-serif">
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: -40 }}
@@ -33,7 +33,7 @@ const AboutPage = () => {
           <h2 className="text-3xl font-semibold mb-4 text-center underline decoration-pink-500">
             Our Story
           </h2>
-          <p className="text-gray-700 leading-relaxed text-center">
+          <p className="text-gray-500 leading-relaxed text-center">
             Born from a passion for traditional Indian artistry, our brand
             celebrates the beauty of handcrafted fabrics, intricate embroidery,
             and timeless silhouettes. Every lehenga, saree, and gown we create
@@ -193,9 +193,9 @@ const AboutPage = () => {
             Meet the Founder
           </h2>
           <img
-            src="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/founder.jpg"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQElSpIqFTCYoQ/profile-displayphoto-scale_400_400/B4DZkf4.GcH4Ag-/0/1757176652934?e=1760572800&v=beta&t=tBgNyoY9B0bnoIUxf7cFhnNfRKIIleMD3lSqvUkxetY"
             alt="Founder"
-            className="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover"
+            className="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg object-cover  border-4 border-pink-600 "
           />
           <h3 className="text-xl font-bold">Aayush Sahani</h3>
           <p className="text-gray-600 max-w-3xl mx-auto mt-2">

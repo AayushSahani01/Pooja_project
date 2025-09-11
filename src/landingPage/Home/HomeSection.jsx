@@ -29,7 +29,7 @@ const slides = [
 const HomeSection = () => {
   return (
     <>
-      <div className="pt-18 p-1 m-2">
+      <div className="pt-18 p-3 m-0">
         <div className="pt-4 flex justify-between items-center ">
           <h1 className="text-3xl pl-12 font-serif font-bold underline decoration-slate-600 ">
             {" "}
