@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import { motion } from "framer-motion";
+import Footer from "../Footer";
 
 const AboutPage = () => {
   return (
@@ -17,8 +18,8 @@ const AboutPage = () => {
             About Us
           </h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            Where tradition meets elegance. We bring you timeless fashion
-            pieces that blend culture, craftsmanship, and modern aesthetics.
+            Where tradition meets elegance. We bring you timeless fashion pieces
+            that blend culture, craftsmanship, and modern aesthetics.
           </p>
         </motion.div>
 
@@ -53,8 +54,7 @@ const AboutPage = () => {
             <p className="text-gray-700">
               To empower every woman with attire that radiates confidence,
               elegance, and individuality. We aim to revive traditional
-              craftsmanship while keeping fashion sustainable and
-              contemporary.
+              craftsmanship while keeping fashion sustainable and contemporary.
             </p>
           </motion.div>
           <motion.div
@@ -228,6 +228,7 @@ const AboutPage = () => {
           </a>
         </motion.div>
       </div>
+      <Footer />
     </>
   );
 };
