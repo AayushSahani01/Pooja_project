@@ -9,7 +9,7 @@ import HomeSection from './HomeSection';
 import ImageSection from './ImageSection';
 import Buy from './Buy';
 import Info from './Info';
-import Fun from './Fun';
+import Faq from './Faq.jsx';
 import MainSection from './MainSection';
 
 const HeroRoute = () => {
@@ -21,7 +21,7 @@ const HeroRoute = () => {
             <MainSection />
             <ImageSection />
             <Buy />
-            <Fun />
+            <Faq />           
             <Qna />
             <Support />
             <Contract />
