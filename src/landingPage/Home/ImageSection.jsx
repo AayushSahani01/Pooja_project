@@ -12,7 +12,7 @@ const ImageSection = () => {
     },
     {
       src: "https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/deep-green1.webp",
-      title: "Saarees",
+      title: "Top wear",
     },
     {
       src: "https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/analika.webp?w=1356",
@@ -28,7 +28,7 @@ const ImageSection = () => {
     },
     {
       src: "https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/saares.webp?w=1540",
-      title: "Topwear",
+      title: "Saarees ",
     },
     {
       src: "https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/new-collection.webp",
