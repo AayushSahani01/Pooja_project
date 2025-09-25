@@ -16,7 +16,8 @@ import Orders from "./landingPage/cart/Orders.jsx";
 import OnTopBar from "./landingPage/OnTopBar.jsx";
 import ShopNow from "./landingPage/fashions/ShopNow.jsx";
 import ScrollToTop from "./scrolltotop.jsx";
-
+import ShippingInfo from "./landingPage/ShippingInfo.jsx";
+import SizeGuide from "./landingPage/SizeGuide.jsx";
 
 
  
@@ -39,6 +40,8 @@ function App() {
          <Route path="/collection" element={<Collection />} />
          <Route path="/shop" element={<ShopNow />} />
          <Route path="/order" element={<Orders />} />
+         <Route path="/shipping-info" element={<ShippingInfo />} />
+         <Route path="/size-guide" element={<SizeGuide />} />
          <Route path="/login" element={<Login />} />
         <Route path="/*" element={<NotPages />} />
       </Routes>
