@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes , Route} from "react-router-dom";
 
+import SimpleLandingPage from "./SimpleLandingPage.jsx";
 import HeroRoute from "./landingPage/Home/HeroRoute.jsx";
 import About from "./landingPage/about/AboutPage.jsx";
 import ContactPage from "./landingPage/Contacts/ContactPage.jsx";
@@ -28,7 +29,8 @@ function App() {
       <BrowserRouter basename="/">
       <ScrollToTop/>
        <Routes>
-        <Route path="/" element={<HeroRoute />} />
+        <Route path="/" element={<SimpleLandingPage />} />
+        <Route path="/home" element={<HeroRoute />} />
         <Route path="/about" element={<About />} />
          <Route path="/contacts" element={<ContactPage />} />
          <Route path="/order" element={<SupportPage />} />
