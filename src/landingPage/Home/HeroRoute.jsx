@@ -16,16 +16,18 @@ const HeroRoute = () => {
     return (
         <>
             <Navbar />
-            <Outlet />
-            <HomeSection />
-            <MainSection />
-            <ImageSection />
-            <Buy />
-            <Faq />           
-            <Qna />
-            <Support />
-            <Contract />
-            <Info />
+            <main id="main-content">
+                <Outlet />
+                <HomeSection />
+                <MainSection />
+                <ImageSection />
+                <Buy />
+                <Faq />           
+                <Qna />
+                <Support />
+                <Contract />
+                <Info />
+            </main>
             <Footer />
         </>
     );

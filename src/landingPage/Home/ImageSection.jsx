@@ -1,4 +1,5 @@
 import React from "react";
+import LazyImage from "../../components/LazyImage";
 
 const ImageSection = () => {
   const items = [
@@ -41,22 +42,22 @@ const ImageSection = () => {
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {items.map((item, index) => (
-          <div
+          <article
             key={index}
             className="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden cursor-pointer transform hover:scale-105 transition duration-300"
           >
             {/* Image with fixed aspect ratio & top alignment */}
-            <img
+            <LazyImage
               src={item.src}
-              alt={item.title}
+              alt={`${item.title} collection image`}
               className="w-full aspect-[3/4] object-cover object-top"
             />
 
             {/* Title */}
-            <h1 className="text-center font-semibold text-xl py-3 tracking-wide text-gray-800 hover:text-pink-600 transition-colors duration-200">
+            <h2 className="text-center font-semibold text-xl py-3 tracking-wide text-gray-800 hover:text-pink-600 transition-colors duration-200">
               {item.title}
-            </h1>
-          </div>
+            </h2>
+          </article>
         ))}
       </div>
     </div>

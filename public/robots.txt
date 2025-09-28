@@ -1,0 +1,27 @@
+# Robots.txt content for Pooja Designer Boutique
+
+User-agent: *
+Allow: /
+
+# Disallow admin/private pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /fashion
+Allow: /collection
+Allow: /shop
+Allow: /blog
+Allow: /contacts
+Allow: /shipping-info
+Allow: /size-guide
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl delay (optional - be respectful to server resources)
+Crawl-delay: 1
