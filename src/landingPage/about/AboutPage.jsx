@@ -2,10 +2,17 @@ import React from "react";
 import Navbar from "../Navbar";
 import { motion } from "framer-motion";
 import Footer from "../Footer";
+import SEOHead from "../../components/SEOHead";
 
 const AboutPage = () => {
   return (
     <>
+      <SEOHead
+        title="About Us - Our Story & Mission"
+        description="Learn about Pooja Designer Boutique's journey, mission, and commitment to creating beautiful, handcrafted fashion pieces that blend tradition with modern aesthetics."
+        keywords={['about pooja designer', 'boutique story', 'fashion mission', 'handcrafted fashion', 'traditional clothing', 'Delhi boutique history']}
+        image="https://poojadesiner.wordpress.com/wp-content/uploads/2025/03/pooja-butique.png"
+      />
       <Navbar />
       <div className=" px-6 py-12 font-serif">
         {/* Hero Section */}
