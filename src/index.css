@@ -1,5 +1,71 @@
 @import "tailwindcss";
 
+/* Custom Font Classes for Elegant Typography */
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-dancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+.font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Elegant Text Effects */
+.text-elegant {
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+}
+
+.text-luxury {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text-shadow-elegant {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth Animations */
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .dark{
     background-color: #070125;
     color: white;
