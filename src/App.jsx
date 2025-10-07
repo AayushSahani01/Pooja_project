@@ -19,6 +19,7 @@ import ShopNow from "./landingPage/fashions/ShopNow.jsx";
 import ScrollToTop from "./scrolltotop.jsx";
 import ShippingInfo from "./landingPage/ShippingInfo.jsx";
 import SizeGuide from "./landingPage/SizeGuide.jsx";
+import ReturnPolicy from "./landingPage/ReturnPolicy.jsx";
 
 
  
@@ -44,6 +45,7 @@ function App() {
          <Route path="/order" element={<Orders />} />
          <Route path="/shipping-info" element={<ShippingInfo />} />
          <Route path="/size-guide" element={<SizeGuide />} />
+         <Route path="/return-policy" element={<ReturnPolicy />} />
          <Route path="/login" element={<Login />} />
         <Route path="/*" element={<NotPages />} />
       </Routes>
