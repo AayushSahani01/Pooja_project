@@ -132,7 +132,7 @@ const Footer = () => {
                 { name: "Return Policy", path: "#" },
                 { name: "Shipping Info", path: "/shipping-info" },
                 { name: "Size Guide", path: "/size-guide" },
-                { name: "Care Instructions", path: "#" },
+                { name: "Care Instructions", path: "/care-instructions" },
               ].map((link, idx) => (
                 <li key={idx} className="group">
                   <a
