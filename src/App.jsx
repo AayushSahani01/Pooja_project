@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes , Route} from "react-router-dom";
 
+import SimpleLandingPage from "./SimpleLandingPage.jsx";
 import HeroRoute from "./landingPage/Home/HeroRoute.jsx";
 import About from "./landingPage/about/AboutPage.jsx";
 import ContactPage from "./landingPage/Contacts/ContactPage.jsx";
@@ -28,75 +29,26 @@ function App() {
   return (
     <ErrorBoundary fallback={PageErrorFallback} showDetails={process.env.NODE_ENV === 'development'}>
       <BrowserRouter basename="/">
-        <ScrollToTop/>
-        <Routes>
-          <Route path="/" element={
-            <ErrorBoundary>
-              <HeroRoute />
-            </ErrorBoundary>
-          } />
-          <Route path="/about" element={
-            <ErrorBoundary>
-              <About />
-            </ErrorBoundary>
-          } />
-          <Route path="/contacts" element={
-            <ErrorBoundary>
-              <ContactPage />
-            </ErrorBoundary>
-          } />
-          <Route path="/order" element={
-            <ErrorBoundary>
-              <SupportPage />
-            </ErrorBoundary>
-          } />
-          <Route path="/signup" element={
-            <ErrorBoundary>
-              <Signup />
-            </ErrorBoundary>
-          } />
-          <Route path="/login" element={
-            <ErrorBoundary>
-              <Login />
-            </ErrorBoundary>
-          } />
-          <Route path="/blog" element={
-            <ErrorBoundary>
-              <Blogs />
-            </ErrorBoundary>
-          } />
-          <Route path="/blog/:id" element={
-            <ErrorBoundary>
-              <BlogDetailPage />
-            </ErrorBoundary>
-          } />
-          <Route path="/fashion" element={
-            <ErrorBoundary>
-              <Fashions />
-            </ErrorBoundary>
-          } />
-          <Route path="/collection" element={
-            <ErrorBoundary>
-              <Collection />
-            </ErrorBoundary>
-          } />
-          <Route path="/shop" element={
-            <ErrorBoundary>
-              <ShopNow />
-            </ErrorBoundary>
-          } />
-          <Route path="/shipping-info" element={
-            <ErrorBoundary>
-              <ShippingInfo />
-            </ErrorBoundary>
-          } />
-          <Route path="/size-guide" element={
-            <ErrorBoundary>
-              <SizeGuide />
-            </ErrorBoundary>
-          } />
-          <Route path="/*" element={<NotPages />} />
-        </Routes>
+      <ScrollToTop/>
+       <Routes>
+        <Route path="/" element={<SimpleLandingPage />} />
+        <Route path="/home" element={<HeroRoute />} />
+        <Route path="/about" element={<About />} />
+         <Route path="/contacts" element={<ContactPage />} />
+         <Route path="/order" element={<SupportPage />} />
+         <Route path="/signup" element={<Signup />} />
+         <Route path="/login" element={<Login />} />
+           <Route path="/blog" element={<Blogs />} />
+        <Route path="/blog/:id" element={<BlogDetailPage />} />
+         <Route path="/fashion" element={<Fashions />} />
+         <Route path="/collection" element={<Collection />} />
+         <Route path="/shop" element={<ShopNow />} />
+         <Route path="/order" element={<Orders />} />
+         <Route path="/shipping-info" element={<ShippingInfo />} />
+         <Route path="/size-guide" element={<SizeGuide />} />
+         <Route path="/login" element={<Login />} />
+        <Route path="/*" element={<NotPages />} />
+      </Routes>
       </BrowserRouter>
     </ErrorBoundary>
   )
