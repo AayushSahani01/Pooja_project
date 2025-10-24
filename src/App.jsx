@@ -19,13 +19,15 @@ import ShopNow from "./landingPage/fashions/ShopNow.jsx";
 import ScrollToTop from "./scrolltotop.jsx";
 import ShippingInfo from "./landingPage/ShippingInfo.jsx";
 import SizeGuide from "./landingPage/SizeGuide.jsx";
+import ErrorBoundary from "./components/ErrorBoundary.jsx";
+import { PageErrorFallback } from "./components/ErrorFallbacks.jsx";
 
 
  
 
 function App() {
   return (
-    
+    <ErrorBoundary fallback={PageErrorFallback} showDetails={process.env.NODE_ENV === 'development'}>
       <BrowserRouter basename="/">
       <ScrollToTop/>
        <Routes>
@@ -48,6 +50,7 @@ function App() {
         <Route path="/*" element={<NotPages />} />
       </Routes>
       </BrowserRouter>
+    </ErrorBoundary>
   )
 }
 
